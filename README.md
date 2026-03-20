@@ -50,9 +50,9 @@ A data-driven analysis exploring how the Supreme Court's *Students for Fair Admi
 
 ## 📬 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/raul-sola-navarro/))
-[![Twitter/X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)]([YOUR_TWITTER_URL](https://x.com/RaulSolaNavarro))
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)]([YOUR_PORTFOLIO_URL](https://raulsolanavarro.github.io/STA9750-2026-SPRING/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raul-sola-navarro/)
+[![Twitter/X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/RaulSolaNavarro)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://raulsolanavarro.github.io/STA9750-2026-SPRING/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:raulsolanavarro@gmail.com)
 
 ---
