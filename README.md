@@ -1,4 +1,4 @@
-<h1 align="center">Hi there, I'm Raul 👋</h1>
+<h1 align="center">Hi there, I'm Raúl 👋</h1>
 
 <p align="center">
   <em>MSBA candidate · FinOps professional · Data Analyst</em><br/>
