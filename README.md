@@ -1,7 +1,7 @@
-<h1 align="center">Hi there, I'm Raúl 👋</h1>
+<h1 align="center">Hi, I'm Raúl 👋</h1>
 
 <p align="center">
-  <em>MSBA candidate · FinOps professional · Data Analyst</em><br/>
+  <em>MSBA Candidate · FinOps Leader · Data Analyst</em><br/>
   Passionate about supply &amp; demand, health &amp; wellness, and bringing people together.
 </p>
 
@@ -12,7 +12,7 @@
 - 📊 10+ years of experience in **FinOps** and data analysis
 - 🎓 Currently pursuing my **Master of Science in Business Analytics (MSBA)**
 - 💡 I love turning raw data into clear, actionable insights
-- 🤝 Always happy to connect, collaborate, or just chat data
+- 🤝 Always happy to connect, collaborate, or just chat
 
 ---
 
