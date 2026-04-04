@@ -46,6 +46,10 @@ A data-driven analysis exploring how the Supreme Court's *Students for Fair Admi
 
 `R` · `Data Analysis` · `Higher Ed Policy`
 
+### 📌 [Know Your Time: Data-Driven Profiles for a Time-Tracking App](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp02.html)
+An exploration of two decades of American Time Use Survey data, uncovering how different demographic groups spend their days and translating those patterns into actionable profiles for a gamified time-tracking app.
+
+`R` · `Data Analysis` · `Time Use` · `Survey Data`
 ---
 
 ## 📬 Connect with me
