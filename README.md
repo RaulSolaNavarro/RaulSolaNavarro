@@ -51,6 +51,11 @@ An exploration of two decades of American Time Use Survey data, uncovering how d
 
 `R` · `Data Analysis` · `Time Use` · `Survey Data`
 
+### 📌 [Who Goes There? US Internal Migration and Congressional Reapportionment](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp03.html)
+An analysis of American Community Survey migration flow data tracing where Americans are moving, which cities are driving Texas's growth, and what it all means for congressional representation after the 2030 census. The project closes with a data-driven advertising strategy to protect Texas's political footprint.
+
+`R` · `Data Analysis` · `Demographics` · `Migration` · `Political Geography`
+
 ---
 
 ## 📬 Connect with me
