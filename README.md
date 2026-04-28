@@ -41,6 +41,11 @@
 
 ## 🗂️ Featured projects
 
+### 📌 [NYC Restaurant Inspection Analysis](https://raulsolanavarro.github.io/reptalytics/reptalytics_report.html)
+A live-data analysis of over 160,000 NYC Department of Health restaurant inspections from 2021 to 2024, uncovering trends in violation scores, borough-level grade differences (validated with ANOVA), closure rates, and the most common health code violations across cuisine categories.
+
+`Python` · `Quarto` · `Data Analysis` · `NYC Open Data` · `Public Health`
+
 ### 📌 [Assessing the Impact of SFFA on Campus Diversity](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp01.html)
 A data-driven analysis exploring how the Supreme Court's *Students for Fair Admissions* decision has shaped demographic trends across U.S. college campuses.
 
