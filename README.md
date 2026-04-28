@@ -56,6 +56,11 @@ An analysis of American Community Survey migration flow data tracing where Ameri
 
 `R` · `Data Analysis` · `Demographics` · `Migration` · `Political Geography`
 
+### 📌 [Customer Churn Prediction Analysis](https://raulsolanavarro.github.io/CIS9660-2026-SPRING/churn-report.html)
+A binary classification study on telecom customer churn using the Kaggle Telco Customer Churn dataset. The project builds and evaluates a logistic regression model with interaction terms, tunes the classification threshold to prioritize recall, and translates the findings into actionable retention strategies for marketing teams.
+
+`Python` · `Logistic Regression` · `Classification` · `Customer Analytics` · `Telecom`
+
 ---
 
 ## 📬 Connect with me
