@@ -24,9 +24,12 @@
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Looker](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square&logo=google&logoColor=white)
+![Data Studio (Looker)](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![dbdiagram](https://img.shields.io/badge/dbdiagram-4A90D9?style=flat-square&logo=databricks&logoColor=white)
+![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white)
 
 ---
 
@@ -65,6 +68,11 @@ An analysis of American Community Survey migration flow data tracing where Ameri
 A binary classification study on telecom customer churn using the Kaggle Telco Customer Churn dataset. The project builds and evaluates a logistic regression model with interaction terms, tunes the classification threshold to prioritize recall, and translates the findings into actionable retention strategies for marketing teams.
 
 `Python` · `Logistic Regression` · `Classification` · `Customer Analytics` · `Telecom`
+
+### 📌 [NYC Traffic & Road Infrastructure Analysis](https://raulsolanavarro.github.io/nyc-analytics-project-rjsn/)
+A data warehousing project integrating NYC 311 Service Requests and DOT Automated Traffic Volume Counts (2020–2025) to investigate the relationship between traffic density and road infrastructure degradation across New York City's five boroughs. The project builds a Kimball star-schema dimensional model, implements a full ELT pipeline using the Socrata API, Google Cloud Functions, BigQuery, and dbt, and delivers a Data Studio (Looker Studio) dashboard answering two core analytics questions: does traffic volume correlate with complaint frequency, and does response time vary by borough?
+
+`SQL` · `BigQuery` · `dbt` · `Looker Studio` · `Data Warehousing` · `Kimball` · `NYC Open Data` · `Python`
 
 ---
 
