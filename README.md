@@ -74,6 +74,11 @@ A data warehousing project integrating NYC 311 Service Requests and DOT Automate
 
 `SQL` · `BigQuery` · `dbt` · `Looker Studio` · `Data Warehousing` · `Kimball` · `NYC Open Data` · `Python`
 
+### 📌 [Going for the Gold: Forecasting Team USA at LA 2028](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp04.html)
+A sports analytics project building a four-factor statistical model to forecast Team USA's gold medal count at the 2028 Los Angeles Summer Olympics. The project scrapes over 10,000 medal records from Olympedia across all modern Summer and Winter Games using a custom caching web scraper, standardizes historical country codes across 130+ years of geopolitical change, and incorporates World Bank GDP per capita data via API. The model estimates three core effects (US baseline performance, host nation advantage, and new sport bonus) using parametric and bootstrap confidence intervals via the infer package, then combines them through a 1,000,000-draw Monte Carlo simulation. Model reliability is assessed through retrospective validation on 13 past host nations. Results are delivered as a polished fundraising brief for the LA 2028 Organizing Committee.
+
+`R` · `rvest` · `tidyverse` · `infer` · `ggplot2` · `gt` · `Monte Carlo Simulation` · `Web Scraping` · `Bootstrap Inference` · `World Bank API` · `Olympedia` · `Quarto`
+
 ---
 
 ## 📬 Connect with me
