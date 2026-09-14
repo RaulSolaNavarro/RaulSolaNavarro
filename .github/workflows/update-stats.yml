@@ -21,15 +21,15 @@ jobs:
           card: stats
           options: username=RaulSolaNavarro&show_icons=true&hide_border=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=RaulSolaNavarro&layout=compact&hide_border=true&hide=html,css,scss,jupyter%20notebook&size_weight=0.5&count_weight=0.5
+          options: username=RaulSolaNavarro&layout=compact&hide_border=true&size_weight=0.5&count_weight=0.5
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit cards
         run: |
