@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: read
 
     steps:
       - uses: actions/checkout@v4.2.2
@@ -26,7 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=RaulSolaNavarro&layout=compact&hide_border=true&hide=jupyter%20notebook&size_weight=0.5&count_weight=0.5
+          options: username=RaulSolaNavarro&layout=compact&hide_border=true&hide=html,css,scss,jupyter%20notebook&size_weight=0.5&count_weight=0.5
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
