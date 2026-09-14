@@ -13,7 +13,7 @@ jobs:
       actions: read
 
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v4.2.3
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
