@@ -79,6 +79,11 @@ A sports analytics project building a four-factor statistical model to forecast 
 
 `R` · `rvest` · `tidyverse` · `infer` · `ggplot2` · `gt` · `Monte Carlo Simulation` · `Web Scraping` · `Bootstrap Inference` · `World Bank API` · `Olympedia` · `Quarto`
 
+### 📌 [Does Neighborhood Income Affect NYC 311 Resolution Times?](https://raulsolanavarro.github.io/STA9750-2026-SPRING/individual_report_raul.html)
+An analysis of 12.6 million closed NYC 311 service requests (2022–2025) spatially joined to census-tract income data, testing whether lower-income neighborhoods experience longer resolution times. The raw gap is real (43% longer for the lowest-income quintile), but after controlling for complaint type and borough via OLS, bootstrap confidence intervals, and quantile regression, the disparity is shown to be driven by what neighborhoods report rather than differential treatment. Part of a four-person capstone project on segmented prioritization in city services ([joint summary report](https://raulsolanavarro.github.io/STA9750-2026-SPRING/summary_report.html)).
+
+`R` · `sf` · `tidycensus` · `leaflet` · `quantreg` · `Spatial Analysis` · `Regression` · `NYC Open Data`
+
 ---
 
 ## 📬 Connect with me
