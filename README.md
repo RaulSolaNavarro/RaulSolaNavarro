@@ -44,6 +44,11 @@
 
 ## 🗂️ Featured projects
 
+### 📌 [Do Netflix's Rankings and Wikipedia Attention Agree?](https://raulsolanavarro.github.io/intl-streaming-measurement-check/)
+A reconciliation of a first-party source (Netflix's weekly Top 10) against a third-party signal (Wikipedia pageviews) across six international markets over 12 weeks, covering 378 titles and 641 title-market pairs. The pipeline maps titles across sources through Wikidata, loads the data into BigQuery, and measures agreement by market with week-level bootstrap confidence intervals, alongside coverage gaps, attention timing, and the largest discrepancies. An independent pandas recompute validates every BigQuery result. The report closes with six recommendations for a measurement team, and an interactive [Tableau Public dashboard](https://public.tableau.com/views/Netflixvs_WikipediaInternationalMeasurementCheck/Dashboard) summarizes the findings. ([Code](https://github.com/RaulSolaNavarro/intl-streaming-measurement-check))
+
+`Python` · `BigQuery` · `SQL` · `Tableau` · `Quarto` · `Wikidata API` · `Bootstrap Inference` · `Data Reconciliation` · `Audience Measurement`
+
 ### 📌 [NYC Restaurant Inspection Analysis](https://raulsolanavarro.github.io/reptalytics/reptalytics_report.html)
 A live-data analysis of over 160,000 NYC Department of Health restaurant inspections from 2021 to 2024, uncovering trends in violation scores, borough-level grade differences (validated with ANOVA), closure rates, and the most common health code violations across cuisine categories.
 
