@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  🟢 <strong>Actively seeking full-time roles</strong> — Senior Data/Business Analyst, Operations/Supply Chain Analyst, or Inventory/Demand Manager
+  🟢 <strong>Actively seeking full-time roles</strong>: Senior Data/Business Analyst, Operations/Supply Chain Analyst, or Inventory/Demand Manager
 </p>
 
 ---
@@ -15,7 +15,7 @@
 
 - 📊 10+ years in **FinOps, supply chain, and operations analytics** at Texas Instruments
 - 🎓 **MS in Business Analytics** candidate at Baruch College (Zicklin), graduating December 2026
-- 🧰 I build end-to-end pipelines — from raw API data to production dashboards and statistical models
+- 🧰 I build end-to-end pipelines, from raw API data to production dashboards and statistical models
 - 🤝 Always open to connecting, collaborating, or discussing analytics problems
 
 ---
@@ -48,14 +48,9 @@
 
 ## 🗂️ Projects by Industry
 
+> 📝 **A note on audience:** most of the projects below are written for a technical audience, with the methods and code up front. I'm working on companion versions aimed at non-technical stakeholders (shorter, results first, built around the decision someone has to make). The first ones are in the pipeline below.
+
 ### 🚚 Supply Chain & Logistics
-
-#### 📌 [NYC Last-Mile Logistics Gap Analysis](https://raulsolanavarro.github.io/nyc-lastmile-logistics/)
-**Business question:** Which NYC neighborhoods lack adequate warehouse coverage, and how many people live in those gaps?
-
-Combines 2020 Census tract population data with NYC's PLUTO property database to map industrial facility coverage across all five boroughs. Applies a 1-mile service radius buffer, identifies underserved tracts, and quantifies the population exposure. Delivers borough-level breakdowns, three cartographic outputs (ggplot2 + QGIS), and actionable micro-fulfillment siting recommendations for logistics operators.
-
-`R` · `sf` · `tidycensus` · `ggplot2` · `QGIS` · `Socrata API` · `Spatial Analysis` · `NYC Open Data`
 
 #### 📌 [NYC Traffic & Road Infrastructure Analysis](https://raulsolanavarro.github.io/nyc-analytics-project-rjsn/)
 **Business question:** Does traffic volume drive infrastructure degradation, and does city response time vary by borough?
@@ -80,6 +75,13 @@ Reconciles first-party (Netflix Top 10) and third-party (Wikipedia pageviews) vi
 ---
 
 ### 🏙️ Urban Analytics & Public Policy
+
+#### 📌 [Is $10,000 Enough? Industrial Land Proximity and the Cost of Living Next to a Facility](https://raulsolanavarro.github.io/nyc-lastmile-logistics/report/)
+**Business question:** When a large facility is proposed near homes, what does living next to it cost, and who ends up living closest?
+
+Starts from a live dispute: a developer offered 4,500 Pennsylvania households $10,000 each to accept a 1,300-acre data center. Uses 2020 Census tract data, ACS median household income, and NYC's PLUTO database to map industrial land across all five boroughs and measure distance from every census tract to the nearest industrial lot. Median household income rises with distance (about $64K within a quarter mile, about $90K beyond a mile), a sorting pattern rather than a measured cost. Pairs that with a published Dutch study of 70,684 home sales (de Vor & de Groot, 2011) that found roughly 15% lower prices within 250 meters, fading by about 1.4 miles, to show why a flat payment misses on both distance and who bears the loss. Includes a data correction note: the first version hit an API row limit and overstated coverage gaps, and the published numbers reflect the corrected pull. ([Code](https://github.com/RaulSolaNavarro/nyc-lastmile-logistics))
+
+`R` · `sf` · `tidycensus` · `ggplot2` · `QGIS` · `Socrata API` · `Spatial Analysis` · `Distance-Band Analysis` · `Wilcoxon Rank-Sum` · `NYC Open Data`
 
 #### 📌 [Does Neighborhood Income Affect NYC 311 Resolution Times?](https://raulsolanavarro.github.io/STA9750-2026-SPRING/individual_report_raul.html)
 **Business question:** Do lower-income neighborhoods wait longer for city services, and if so, is that driven by differential treatment or by what they report?
@@ -150,45 +152,58 @@ Analyzes American Community Survey migration flow data to identify dominant corr
 #### 📌 [Know Your Time: Data-Driven Profiles for a Time-Tracking App](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp02.html)
 **Business question:** How do different demographic groups actually spend their time, and what user profiles should a time-tracking app be built around?
 
-Explores two decades of American Time Use Survey data to identify behavioral patterns by demographic segment and translate them into actionable product personas for a gamified app.
+Builds survey-weighted time-use profiles from multiple years of American Time Use Survey microdata, averaging hours per person per day (zeros included) so each activity reflects the whole group, not just the people who did it. Compares groups side by side and turns the differences into product personas for a gamified app. The report was republished after a full correction pass on activity coding, respondent filters, and the averaging method; the original publish date is kept and the republish date is shown in the title block.
 
-`R` · `Data Analysis` · `Time Use` · `Survey Data`
+`R` · `Survey Weighting` · `Weighted Quantiles` · `gt` · `Quarto` · `Time Use` · `Survey Data`
 
 *STA 9750 · Software Tools for Data Analysis · Spring 2026*
+
+---
+
+## 🚧 In the pipeline
+
+Two more projects are in progress and will be added here when they're published:
+
+- ☀️ **Solar energy forecasting:** a time-series forecasting project on solar energy usage. *BUS 9430 · Business Analytics Project Management · Fall 2026*
+- 🌐 **Supply chain resilience:** a data visualization project on how global supply chains hold up under disruption. *CIS 9655 · Data Visualization · Fall 2026*
+
+Both will include a short, results-first version for non-technical readers alongside the technical write-up.
 
 ---
 
 ## 🔍 Find projects by technology
 
 **Languages**
-- Python — Netflix/Wikipedia, NYC Restaurants, Customer Churn, NYC Traffic
-- R — Last-Mile Logistics, NYC 311, SFFA, Customer Time Use, Migration, Olympics, NYC Traffic (ELT)
-- SQL — Netflix/Wikipedia, NYC Traffic
+- Python: Netflix/Wikipedia, NYC Restaurants, Customer Churn, NYC Traffic
+- R: Industrial Proximity ($10K), NYC 311, SFFA, Time Use, Migration, Olympics
+- SQL: Netflix/Wikipedia, NYC Traffic
 
 **BI & Visualization**
-- Tableau — Netflix/Wikipedia
-- Looker Studio — NYC Traffic
-- ggplot2 / Quarto — Last-Mile Logistics, NYC Restaurants, Olympics, NYC 311
+- Tableau: Netflix/Wikipedia
+- Looker Studio: NYC Traffic
+- ggplot2 / Quarto: Industrial Proximity ($10K), NYC Restaurants, Olympics, NYC 311, Time Use
 
 **Cloud & Data Platforms**
-- BigQuery — Netflix/Wikipedia, NYC Traffic
-- dbt — NYC Traffic
-- Google Cloud Functions — NYC Traffic
+- BigQuery: Netflix/Wikipedia, NYC Traffic
+- dbt: NYC Traffic
+- Google Cloud Functions: NYC Traffic
 
 **Statistical & ML Methods**
-- Logistic Regression — Customer Churn
-- Bootstrap Inference — Netflix/Wikipedia, Olympics, NYC 311
-- Monte Carlo Simulation — Olympics
-- OLS & Quantile Regression — NYC 311
-- ANOVA — NYC Restaurants
-- Spatial Analysis (sf, QGIS) — Last-Mile Logistics, NYC 311
+- Logistic Regression: Customer Churn
+- Bootstrap Inference: Netflix/Wikipedia, Olympics, NYC 311
+- Monte Carlo Simulation: Olympics
+- OLS & Quantile Regression: NYC 311
+- ANOVA: NYC Restaurants
+- Wilcoxon Rank-Sum Test: Industrial Proximity ($10K)
+- Survey Weighting: Time Use
+- Spatial Analysis (sf, QGIS): Industrial Proximity ($10K), NYC 311
 
 **Data Engineering**
-- Socrata API — Last-Mile Logistics, NYC Traffic
-- Web Scraping (rvest) — Olympics
-- Wikidata / Wikipedia API — Netflix/Wikipedia
-- World Bank API — Olympics
-- Kimball Star Schema — NYC Traffic
+- Socrata API: Industrial Proximity ($10K), NYC Traffic
+- Web Scraping (rvest): Olympics
+- Wikidata / Wikipedia API: Netflix/Wikipedia
+- World Bank API: Olympics
+- Kimball Star Schema: NYC Traffic
 
 ---
 
