@@ -127,10 +127,10 @@ Binary classification study on telecom customer churn using the Kaggle Telco dat
 
 ### 🏅 Sports Analytics
 
-#### 📌 [Going for the Gold: Forecasting Team USA at LA 2028](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp04.html)
+#### 📌 [Home Field Advantage: Forecasting Team USA's Gold Medals at LA 2028](https://raulsolanavarro.github.io/STA9750-2026-SPRING/mp04.html)
 **Business question:** How many gold medals should sponsors expect Team USA to win at the 2028 Los Angeles Olympics?
 
-Builds a four-factor model (US baseline, host nation effect, new sport bonus, GDP per capita) using historical Olympic data scraped from Olympedia across all modern Summer and Winter Games. Estimates effects with bootstrap confidence intervals via the infer package, then runs a 1,000,000-draw Monte Carlo simulation. Model reliability validated against 13 past host nations. Delivered as a fundraising brief for the LA 2028 Organizing Committee.
+Builds a four-factor model (US baseline, host nation effect, new sport bonus, GDP per capita) from Summer Olympics data scraped from Olympedia. The host effect is estimated for hosts that were already medal powers, since Team USA's situation looks nothing like a small nation's first home Games. Effects come from bootstrap confidence intervals via the infer package, and a 1,000,000-draw Monte Carlo simulation combines them. The model forecasts 74 golds (95% interval 61 to 88). Back-testing against 10 past hosts adds an average miss of 6.6 golds, which widens the range to 54 to 95. Delivered as a fundraising brief for the LA 2028 Organizing Committee.
 
 `R` · `rvest` · `tidyverse` · `infer` · `ggplot2` · `gt` · `Monte Carlo Simulation` · `Web Scraping` · `Bootstrap Inference` · `World Bank API` · `Olympedia` · `Quarto`
 
